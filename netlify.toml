@@ -1,0 +1,9 @@
+[build]
+  command = ""      # no build step
+  publish = "."     # serve files from repo root
+
+# Optional: if you add a thank-you page for the form
+[[redirects]]
+  from = "/thank-you"
+  to = "/thank-you.html"
+  status = 200

@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Youth for East African Federation</title>
+  <meta name="description" content="Youth for East African Federation — Unite. Inspire. Transform.">
+  <link rel="icon" href="logo.png">
+  <style>
+    :root{--bg:#0a0a0a;--panel:#121212;--text:#e6e6e6;--muted:#a3a3a3;--ring:#262626;--brand:#007A33}
+    *{box-sizing:border-box} html,body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto}
+    a{color:inherit;text-decoration:none} .container{max-width:1120px;margin:0 auto;padding:0 16px}
+    header{position:sticky;top:0;z-index:40;background:#0a0a0abf;backdrop-filter:blur(8px);border-bottom:1px solid var(--ring)}
+    .btn{display:inline-block;padding:12px 18px;border-radius:14px;font-weight:700}.btn-primary{background:var(--brand);color:#000}
+    .card{background:#121212b3;border:1px solid var(--ring);border-radius:20px;padding:20px}
+    .muted{color:var(--muted)} .section{padding:64px 0}
+    .grid{display:grid;gap:16px}.grid-2{grid-template-columns:1fr 1fr}.grid-3{grid-template-columns:1fr 1fr 1fr}.grid-4{grid-template-columns:repeat(4,1fr)}
+    @media(max-width:900px){.grid-2,.grid-3,.grid-4{grid-template-columns:1fr}}
+    input,select,textarea{width:100%;padding:12px 14px;border-radius:12px;border:1px solid var(--ring);background:#0f0f0f;color:var(--text);outline:none}
+    input:focus,select:focus,textarea:focus{border-color:var(--brand)}
+    footer{border-top:1px solid var(--ring);padding:28px 0;margin-top:32px}
+    .hero{position:relative;overflow:hidden}
+    .hero:before{content:"";position:absolute;inset:0;background:
+      radial-gradient(60% 60% at 20% 0%, rgba(0,122,51,.18), transparent 60%),
+      radial-gradient(50% 50% at 80% 20%, rgba(212,175,55,.12), transparent 55%),
+      radial-gradient(60% 60% at 50% 100%, rgba(0,122,51,.12), transparent 60%);
+      pointer-events:none}
+    .hero-grid{display:grid;grid-template-columns:1fr;gap:24px;padding:72px 0}
+    @media(min-width:900px){.hero-grid{grid-template-columns:1fr 1fr;padding:112px 0}}
+  </style>
+</head>
+<body>
+  <!-- NAV -->
+  <header>
+    <div class="container" style="display:flex;align-items:center;justify-content:space-between;padding:12px 0">
+      <div style="display:flex;align-items:center;gap:12px">
+        <img src="logo.png" alt="Y4EAF Logo" width="40" height="40" style="border-radius:10px;border:1px solid var(--ring)">
+        <div>
+          <div class="muted" style="text-transform:uppercase;letter-spacing:.18em;font-size:.78rem">Youth for</div>
+          <strong>East African Federation</strong>
+        </div>
+      </div>
+      <a class="btn btn-primary" href="#join">Join Us</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <h1 style="font-size:clamp(28px,4vw,48px);line-height:1.15;margin:0 0 8px">One People. One Destiny. <span style="color:var(--brand)">One Federation.</span></h1>
+        <p class="muted" style="font-size:1.05rem">A youth-led movement to unite East Africa — unlocking shared power in trade, culture, sport and technology.</p>
+        <div style="margin-top:20px">
+          <a class="btn btn-primary" href="#join">Join the Movement</a>
+        </div>
+      </div>
+      <div style="display:flex;justify-content:center">
+        <div class="card" style="text-align:center">
+          <img src="logo.png" alt="Y4EAF Logo" width="220" height="220" style="display:block;margin:0 auto;border-radius:18px;border:1px solid var(--ring)">
+          <div class="muted" style="margin-top:10px">Unite. Inspire. Transform.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About the Movement</h2>
+      <div class="grid grid-2" style="margin-top:12px">
+        <p class="muted">
+          Youth for East African Federation is a non-partisan, youth-driven initiative championing unity across East Africa.
+          We believe colonial borders divide one people. Our mission is to build a generation that thinks, trades, learns and creates together.
+        </p>
+        <div class="grid grid-2">
+          <div class="card"><strong>Unity</strong><div class="muted">We are stronger together.</div></div>
+          <div class="card"><strong>Opportunity</strong><div class="muted">One market. One passport. More jobs.</div></div>
+          <div class="card"><strong>Culture</strong><div class="muted">Celebrate our shared heritage.</div></div>
+          <div class="card"><strong>Peace</strong><div class="muted">Cooperation over conflict.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY UNITE -->
+  <section id="why" class="section" style="padding-top:0">
+    <div class="container">
+      <h2>Why Unite?</h2>
+      <div class="grid grid-4" style="margin-top:12px">
+        <div class="card"><strong>Free Movement</strong><div class="muted">Study, work, and build anywhere in East Africa.</div></div>
+        <div class="card"><strong>Bigger Markets</strong><div class="muted">Open trade across 300M+ people lowers prices and boosts jobs.</div></div>
+        <div class="card"><strong>Shared Power</strong><div class="muted">One voice in global affairs: trade, climate, tech, defense.</div></div>
+        <div class="card"><strong>Youth First</strong><div class="muted">Culture, sport, and innovation at the center.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ROADMAP -->
+  <section id="roadmap" class="section" style="padding-top:0">
+    <div class="container">
+      <h2>12-Month Roadmap</h2>
+      <div class="grid grid-3" style="margin-top:12px">
+        <div class="card">
+          <small class="muted" style="display:inline-block;border:1px solid var(--ring);border-radius:10px;padding:4px 8px">Phase 1: Ignite (0–3 mo)</small>
+          <ul class="muted">
+            <li>Daily content: satire + explainers</li>
+            <li>Recruit campus captains & Telegram squads</li>
+            <li>Brand kit: slogans, stickers, templates</li>
+          </ul>
+        </div>
+        <div class="card">
+          <small class="muted" style="display:inline-block;border:1px solid var(--ring);border-radius:10px;padding:4px 8px">Phase 2: Breakout (3–6 mo)</small>
+          <ul class="muted">
+            <li>Cross-border creator collabs</li>
+            <li>#OneEastAfrica challenge</li>
+            <li>Monthly campus debates → recap threads</li>
+          </ul>
+        </div>
+        <div class="card">
+          <small class="muted" style="display:inline-block;border:1px solid var(--ring);border-radius:10px;padding:4px 8px">Phase 3: Movement (6–12 mo)</small>
+          <ul class="muted">
+            <li>Regional ambassadors & city chapters</li>
+            <li>Unity concert + sports friendlies</li>
+            <li>Youth manifesto & policy explainers</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOIN (Netlify Forms) -->
+  <section id="join" class="section" style="padding-top:0">
+    <div class="container">
+      <h2>Join the Movement</h2>
+      <p class="muted">Become a chapter lead, volunteer your skills, or help spread the message. Fill the form and we’ll reach out.</p>
+      <div class="card" style="margin-top:14px">
+        <form name="join" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="join">
+          <p style="display:none"><label>Don’t fill this out if you're human: <input name="bot-field"></label></p>
+          <div class="grid grid-2">
+            <div><input name="name" type="text" placeholder="Your name" required></div>
+            <div><input name="email" type="email" placeholder="Email address" required></div>
+          </div>
+          <div class="grid grid-2" style="margin-top:10px">
+            <div>
+              <select name="country" required>
+                <option value="">Choose your country</option>
+                <option>Uganda</option><option>Kenya</option><option>Tanzania</option>
+                <option>Rwanda</option><option>Burundi</option><option>South Sudan</option>
+                <option>DRC</option><option>Somalia</option>
+              </select>
+            </div>
+            <div><input name="skills" type="text" placeholder="Skills (design, organizing, etc.)"></div>
+          </div>
+          <div style="margin-top:10px"><textarea name="message" rows="3" placeholder="How would you like to help?"></textarea></div>
+          <div style="margin-top:14px"><button type="submit" class="btn btn-primary">Join Now</button></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container" style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between">
+      <div class="muted">© <span id="year"></span> Youth for East African Federation. All rights reserved.</div>
+      <div style="display:flex;gap:12px">
+        <a class="muted" href="#">Privacy</a>
+        <a class="muted" href="#">Contact</a>
+        <a class="muted" href="mailto:hello@y4eaf.org">hello@y4eaf.org</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

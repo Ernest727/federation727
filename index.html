@@ -4,13 +4,20 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Youth for East African Federation</title>
-  <meta name="description" content="Youth for East African Federation — Unite. Inspire. Transform.">
-  <link rel="icon" href="logo.png">
+  <meta name="description" content="Join the youth-led movement uniting East Africa. One People. One Destiny. One Federation.">
+  <link rel="icon" href="logo.png" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Youth for East African Federation">
+  <meta property="og:description" content="Join the youth-led movement uniting East Africa.">
+  <meta property="og:image" content="logo.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+
   <style>
     :root{--bg:#0a0a0a;--panel:#121212;--text:#e6e6e6;--muted:#a3a3a3;--ring:#262626;--brand:#007A33}
-    *{box-sizing:border-box} html,body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto}
+    *{box-sizing:border-box} html,body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu}
     a{color:inherit;text-decoration:none} .container{max-width:1120px;margin:0 auto;padding:0 16px}
-    header{position:sticky;top:0;z-index:40;background:#0a0a0abf;backdrop-filter:blur(8px);border-bottom:1px solid var(--ring)}
     .btn{display:inline-block;padding:12px 18px;border-radius:14px;font-weight:700}.btn-primary{background:var(--brand);color:#000}
     .card{background:#121212b3;border:1px solid var(--ring);border-radius:20px;padding:20px}
     .muted{color:var(--muted)} .section{padding:64px 0}
@@ -18,13 +25,13 @@
     @media(max-width:900px){.grid-2,.grid-3,.grid-4{grid-template-columns:1fr}}
     input,select,textarea{width:100%;padding:12px 14px;border-radius:12px;border:1px solid var(--ring);background:#0f0f0f;color:var(--text);outline:none}
     input:focus,select:focus,textarea:focus{border-color:var(--brand)}
+    header{position:sticky;top:0;z-index:40;background:#0a0a0abf;backdrop-filter:blur(8px);border-bottom:1px solid var(--ring)}
     footer{border-top:1px solid var(--ring);padding:28px 0;margin-top:32px}
     .hero{position:relative;overflow:hidden}
     .hero:before{content:"";position:absolute;inset:0;background:
       radial-gradient(60% 60% at 20% 0%, rgba(0,122,51,.18), transparent 60%),
       radial-gradient(50% 50% at 80% 20%, rgba(212,175,55,.12), transparent 55%),
-      radial-gradient(60% 60% at 50% 100%, rgba(0,122,51,.12), transparent 60%);
-      pointer-events:none}
+      radial-gradient(60% 60% at 50% 100%, rgba(0,122,51,.12), transparent 60%);}
     .hero-grid{display:grid;grid-template-columns:1fr;gap:24px;padding:72px 0}
     @media(min-width:900px){.hero-grid{grid-template-columns:1fr 1fr;padding:112px 0}}
   </style>
@@ -40,6 +47,11 @@
           <strong>East African Federation</strong>
         </div>
       </div>
+      <nav class="muted" style="display:flex;gap:16px">
+        <a href="#about">About</a>
+        <a href="#why">Why Unite</a>
+        <a href="#join">Join</a>
+      </nav>
       <a class="btn btn-primary" href="#join">Join Us</a>
     </div>
   </header>
@@ -48,8 +60,10 @@
   <section class="hero">
     <div class="container hero-grid">
       <div>
-        <h1 style="font-size:clamp(28px,4vw,48px);line-height:1.15;margin:0 0 8px">One People. One Destiny. <span style="color:var(--brand)">One Federation.</span></h1>
-        <p class="muted" style="font-size:1.05rem">A youth-led movement to unite East Africa — unlocking shared power in trade, culture, sport and technology.</p>
+        <h1 style="font-size:clamp(28px,4vw,48px);line-height:1.15;margin:0 0 8px">
+          One People. One Destiny. <span style="color:var(--brand)">One Federation.</span>
+        </h1>
+        <p class="muted" style="font-size:1.05rem;margin:0">Join <strong>1,000+ youth</strong> uniting East Africa — power in trade, culture, sport & tech.</p>
         <div style="margin-top:20px">
           <a class="btn btn-primary" href="#join">Join the Movement</a>
         </div>
@@ -95,52 +109,22 @@
     </div>
   </section>
 
-  <!-- ROADMAP -->
-  <section id="roadmap" class="section" style="padding-top:0">
-    <div class="container">
-      <h2>12-Month Roadmap</h2>
-      <div class="grid grid-3" style="margin-top:12px">
-        <div class="card">
-          <small class="muted" style="display:inline-block;border:1px solid var(--ring);border-radius:10px;padding:4px 8px">Phase 1: Ignite (0–3 mo)</small>
-          <ul class="muted">
-            <li>Daily content: satire + explainers</li>
-            <li>Recruit campus captains & Telegram squads</li>
-            <li>Brand kit: slogans, stickers, templates</li>
-          </ul>
-        </div>
-        <div class="card">
-          <small class="muted" style="display:inline-block;border:1px solid var(--ring);border-radius:10px;padding:4px 8px">Phase 2: Breakout (3–6 mo)</small>
-          <ul class="muted">
-            <li>Cross-border creator collabs</li>
-            <li>#OneEastAfrica challenge</li>
-            <li>Monthly campus debates → recap threads</li>
-          </ul>
-        </div>
-        <div class="card">
-          <small class="muted" style="display:inline-block;border:1px solid var(--ring);border-radius:10px;padding:4px 8px">Phase 3: Movement (6–12 mo)</small>
-          <ul class="muted">
-            <li>Regional ambassadors & city chapters</li>
-            <li>Unity concert + sports friendlies</li>
-            <li>Youth manifesto & policy explainers</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- JOIN (Netlify Forms) -->
   <section id="join" class="section" style="padding-top:0">
     <div class="container">
       <h2>Join the Movement</h2>
       <p class="muted">Become a chapter lead, volunteer your skills, or help spread the message. Fill the form and we’ll reach out.</p>
       <div class="card" style="margin-top:14px">
-        <form name="join" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <!-- Thank-you redirect via action -->
+        <form name="join" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html">
           <input type="hidden" name="form-name" value="join">
           <p style="display:none"><label>Don’t fill this out if you're human: <input name="bot-field"></label></p>
+
           <div class="grid grid-2">
             <div><input name="name" type="text" placeholder="Your name" required></div>
             <div><input name="email" type="email" placeholder="Email address" required></div>
           </div>
+
           <div class="grid grid-2" style="margin-top:10px">
             <div>
               <select name="country" required>
@@ -150,9 +134,16 @@
                 <option>DRC</option><option>Somalia</option>
               </select>
             </div>
-            <div><input name="skills" type="text" placeholder="Skills (design, organizing, etc.)"></div>
+            <div><input name="whatsapp" type="tel" placeholder="WhatsApp number (optional)"></div>
           </div>
+
           <div style="margin-top:10px"><textarea name="message" rows="3" placeholder="How would you like to help?"></textarea></div>
+
+          <div style="display:flex;align-items:center;gap:8px;margin-top:10px">
+            <input type="checkbox" name="consent" required>
+            <label class="muted">I agree to be contacted about Y4EAF.</label>
+          </div>
+
           <div style="margin-top:14px"><button type="submit" class="btn btn-primary">Join Now</button></div>
         </form>
       </div>
@@ -164,9 +155,11 @@
     <div class="container" style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between">
       <div class="muted">© <span id="year"></span> Youth for East African Federation. All rights reserved.</div>
       <div style="display:flex;gap:12px">
-        <a class="muted" href="#">Privacy</a>
-        <a class="muted" href="#">Contact</a>
-        <a class="muted" href="mailto:hello@y4eaf.org">hello@y4eaf.org</a>
+        <!-- Update these to your real handles -->
+        <a class="muted" href="https://www.tiktok.com/@YourHandle" target="_blank" rel="noreferrer">TikTok</a>
+        <a class="muted" href="https://instagram.com/YourHandle" target="_blank" rel="noreferrer">Instagram</a>
+        <a class="muted" href="https://x.com/YourHandle" target="_blank" rel="noreferrer">X</a>
+        <a class="muted" href="mailto:hello@y4eaf.org">Email</a>
       </div>
     </div>
   </footer>
